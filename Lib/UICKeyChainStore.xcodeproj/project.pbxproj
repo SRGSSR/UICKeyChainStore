@@ -461,6 +461,78 @@
 			};
 			name = Release;
 		};
+		6F53929E2248CB140002BF87 /* Debug-static */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143BF28F1C1CD598002BE6B3 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = "Debug-static";
+		};
+		6F53929F2248CB140002BF87 /* Debug-static */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143BF2921C1CD598002BE6B3 /* UICKeyChainStore.xcconfig */;
+			buildSettings = {
+				MACH_O_TYPE = staticlib;
+			};
+			name = "Debug-static";
+		};
+		6F5392A02248CB140002BF87 /* Debug-static */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14796A791C1CDB8A00169D09 /* libUICKeyChainStore.xcconfig */;
+			buildSettings = {
+			};
+			name = "Debug-static";
+		};
+		6F5392A12248CB140002BF87 /* Debug-static */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143BF2911C1CD598002BE6B3 /* Tests.xcconfig */;
+			buildSettings = {
+			};
+			name = "Debug-static";
+		};
+		6F5392A22248CB140002BF87 /* Debug-static */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F2A00B1D8F31A3000B135F /* TestHost.xcconfig */;
+			buildSettings = {
+			};
+			name = "Debug-static";
+		};
+		6F5392A32248CB190002BF87 /* Release-static */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143BF2901C1CD598002BE6B3 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = "Release-static";
+		};
+		6F5392A42248CB190002BF87 /* Release-static */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143BF2921C1CD598002BE6B3 /* UICKeyChainStore.xcconfig */;
+			buildSettings = {
+				MACH_O_TYPE = staticlib;
+			};
+			name = "Release-static";
+		};
+		6F5392A52248CB190002BF87 /* Release-static */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14796A791C1CDB8A00169D09 /* libUICKeyChainStore.xcconfig */;
+			buildSettings = {
+			};
+			name = "Release-static";
+		};
+		6F5392A62248CB190002BF87 /* Release-static */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143BF2911C1CD598002BE6B3 /* Tests.xcconfig */;
+			buildSettings = {
+			};
+			name = "Release-static";
+		};
+		6F5392A72248CB190002BF87 /* Release-static */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F2A00B1D8F31A3000B135F /* TestHost.xcconfig */;
+			buildSettings = {
+			};
+			name = "Release-static";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -468,7 +540,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14796A4E1C1CD9A500169D09 /* Debug */,
+				6F53929F2248CB140002BF87 /* Debug-static */,
 				14796A4F1C1CD9A500169D09 /* Release */,
+				6F5392A42248CB190002BF87 /* Release-static */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -477,7 +551,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14796A5D1C1CD9B500169D09 /* Debug */,
+				6F5392A12248CB140002BF87 /* Debug-static */,
 				14796A5E1C1CD9B500169D09 /* Release */,
+				6F5392A62248CB190002BF87 /* Release-static */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -486,7 +562,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14796A671C1CD9C900169D09 /* Debug */,
+				6F5392A02248CB140002BF87 /* Debug-static */,
 				14796A681C1CD9C900169D09 /* Release */,
+				6F5392A52248CB190002BF87 /* Release-static */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -495,7 +573,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				148993E41D8F2515000132F7 /* Debug */,
+				6F5392A22248CB140002BF87 /* Debug-static */,
 				148993E51D8F2515000132F7 /* Release */,
+				6F5392A72248CB190002BF87 /* Release-static */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -504,7 +584,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14A59CB11A62CF6E006561CC /* Debug */,
+				6F53929E2248CB140002BF87 /* Debug-static */,
 				14A59CB21A62CF6E006561CC /* Release */,
+				6F5392A32248CB190002BF87 /* Release-static */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -279,7 +279,7 @@
 		14A59C941A62CF6E006561CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "kishikawa katsumi";
 				TargetAttributes = {
 					14796A461C1CD9A500169D09 = {
@@ -302,7 +302,7 @@
 			};
 			buildConfigurationList = 14A59C971A62CF6E006561CC /* Build configuration list for PBXProject "UICKeyChainStore" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -451,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 143BF28F1C1CD598002BE6B3 /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 			};
 			name = Debug;
 		};
@@ -458,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 143BF2901C1CD598002BE6B3 /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 			};
 			name = Release;
 		};
@@ -465,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 143BF28F1C1CD598002BE6B3 /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 			};
 			name = "Debug-static";
 		};
@@ -501,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 143BF2901C1CD598002BE6B3 /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 			};
 			name = "Release-static";
 		};

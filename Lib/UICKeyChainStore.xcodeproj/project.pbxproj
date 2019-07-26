@@ -279,7 +279,7 @@
 		14A59C941A62CF6E006561CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "kishikawa katsumi";
 				TargetAttributes = {
 					14796A461C1CD9A500169D09 = {
@@ -437,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14F2A00B1D8F31A3000B135F /* TestHost.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 			};
 			name = Debug;
 		};
@@ -444,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14F2A00B1D8F31A3000B135F /* TestHost.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 			};
 			name = Release;
 		};
@@ -497,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14F2A00B1D8F31A3000B135F /* TestHost.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 			};
 			name = "Debug-static";
 		};
@@ -534,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14F2A00B1D8F31A3000B135F /* TestHost.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 			};
 			name = "Release-static";
 		};
